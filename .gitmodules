@@ -1,0 +1,3 @@
+[submodule "SimpleHttpServer"]
+	path = SimpleHttpServer
+	url = git@github.com:jeske/SimpleHttpServer.git

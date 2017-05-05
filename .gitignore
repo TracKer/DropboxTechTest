@@ -250,3 +250,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+DropboxTechTest1/bin
+DropboxTechTest1/obj
+DropboxTechTest1/SecretData.cs
