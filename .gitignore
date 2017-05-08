@@ -254,3 +254,5 @@ paket-files/
 DropboxTechTest1/bin
 DropboxTechTest1/obj
 DropboxTechTest1/SecretData.cs
+
+packages/
