@@ -31,5 +31,15 @@ namespace DropboxTechTest1 {
       );
       Process.Start(authorizeUri.ToString());
     }
+
+    public void AddUri(Uri uri) {
+      if (InvokeRequired) {
+        BeginInvoke(new Action<Uri>(AddUri), uri);
+      }
+      else {
+        textBox1.AppendText(uri.ToString() + Environment.NewLine);
+      }
+
+    }
   }
 }
